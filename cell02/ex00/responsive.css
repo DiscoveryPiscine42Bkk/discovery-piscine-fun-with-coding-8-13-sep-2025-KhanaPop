@@ -10,11 +10,11 @@ html, body {
 }
 
 table {
-    width: 100%;              /* ตารางเต็มความกว้างจอ */
-    height: 100vh;            /* ตารางสูงเต็มหน้าจอ */
+    width: 100%;              /* screen widht */
+    height: 100vh;            /* screen hight */
     border-collapse: collapse;
     text-align: center;
-    font-size: 3vw;           /* ตัวอักษรปรับตามขนาดจอ */
+    font-size: 3vw;           
 }
 
 td {
@@ -32,9 +32,9 @@ td {
     background-color: lightcoral;
 }
 
-/* Responsive สำหรับจอเล็ก */
+
 @media (max-width: 600px) {
     table {
-        font-size: 5vw;       /* ตัวอักษรใหญ่ขึ้นในมือถือ */
+        font-size: 5vw;       
     }
 }
