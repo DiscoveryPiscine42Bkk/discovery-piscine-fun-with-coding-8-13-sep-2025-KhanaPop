@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+table {
+    width: 100%;              /* ตารางเต็มความกว้างจอ */
+    height: 100vh;            /* ตารางสูงเต็มหน้าจอ */
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 3vw;           /* ตัวอักษรปรับตามขนาดจอ */
+}
+
+td {
+    width: 50%;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+}
+
+.cell1 {
+    background-color: lightgreen;
+}
+
+.cell2 {
+    background-color: lightcoral;
+}
+
+/* Responsive สำหรับจอเล็ก */
+@media (max-width: 600px) {
+    table {
+        font-size: 5vw;       /* ตัวอักษรใหญ่ขึ้นในมือถือ */
+    }
+}
