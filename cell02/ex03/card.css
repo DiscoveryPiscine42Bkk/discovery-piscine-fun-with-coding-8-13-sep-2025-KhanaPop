@@ -1,0 +1,32 @@
+body {
+    background: #eee;
+    text-align: center;
+    font-family: Arial;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.login {
+    font-weight: bold;
+}
+
+.desc {
+    color: gray;
+}
+
+.social img {
+    width: 30px;
+    margin: 5px;
+}
