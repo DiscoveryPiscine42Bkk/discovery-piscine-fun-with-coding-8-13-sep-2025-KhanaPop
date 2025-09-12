@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+li {
+    float: left;
+    position: relative;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: pink;
+}
+
+li a:hover {
+    background-color: lightgray;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+}
+
+.dropdown-content li {
+    float: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
